@@ -3,170 +3,166 @@
     {
       "question_type": "MultipleChoice",
       "id": "1",
-      "question": "TESTING QUIZ2?",
-      "optiona": "MVC",
-      "optionb": "CJVM",
-      "optionc": "JVM",
-      "optiond": "JVC",
-      "answer": "JVM",
-      "explanation": "Java runs of a virtual enviornment named Java Virtual Machine"
+      "question": "How to you sync git changes to remote?",
+      "optiona": "git push",
+      "optionb": "git commit",
+      "optionc": "git pull",
+      "optiond": "git rebase",
+      "answer": "git push",
+      "explanation": "git push is the correct command"
     },
     {
       "question_type": "MultipleChoice",
       "id": "2",
-      "question": "How do you print in Java?",
-      "optiona": "System.in.println",
-      "optionb": "helloWorld",
-      "optionc": "System.out.println",
-      "optiond": "Print helloWorld",
-      "answer": "System.out.println",
-      "explanation": "The correct answers is C because the proper syntax tells the system we are printing output"
+      "question": "How do you revert to the previous commit?",
+      "optiona": "git push origin +HEAD",
+      "optionb": "git reset HEAD^",
+      "optionc": "git restack",
+      "optiond": "git origin restore",
+      "answer": "git reset HEAD^",
+      "explanation": "git reset HEAD^ is the correct command"
     },
     {
       "question_type": "TF",
       "id": "3",
-      "question": "C is an object oriented programming language",
-      "answer": "False",
-      "explanation": "C is a procedural language"
+      "question": "Python is a procedural language",
+      "answer": "True",
+      "explanation": "Python is a procedural language"
     },
     {
       "question_type": "Input",
       "id": "4",
-      "question": "What does the null terminator in C look like after the backslash?",
-      "answer": "0",
-      "explanation": "0 lets C know the end of a string"
+      "question": "How do you commit with the option for a message in git?",
+      "answer": "git commit -m",
+      "explanation": "git commit -m"
     },
     {
       "question_type": "MultipleChoice",
       "id": "5",
-      "question": "What are H1 - H6 tags meant to do in HTML?",
-      "optiona": "H-5",
-      "optionb": "Create a heading depending on importance",
-      "optionc": "Create a title",
-      "optiond": "Create bold text",
-      "answer": "Create a heading depending on importance",
-      "explanation": "H tags are meant for headings. The larger the number the smaller the text"
+      "question": "Which of the following languages is built into the UNIX shell?",
+      "optiona": "python",
+      "optionb": "bash",
+      "optionc": "java",
+      "optiond": "C++",
+      "answer": "bash",
+      "explanation": "bash is the correct answer!"
     },
     {
       "question_type": "Picture",
       "id": "6",
-      "question": "Which is an IDE",
-      "optiona": "https://img.stackshare.io/service/1446/8cyY6D_m.png",
-      "optionb": "https://library.kissclipart.com/20181007/uqq/kissclipart-python-programming-logo-clipart-python-programming-ee3b722cb6d8fd35.jpg",
+      "question": "Which of the following is the Ubuntu logo?",
+      "optiona": "https://1000logos.net/wp-content/uploads/2017/06/Ubuntu-Logo.png",
+      "optionb": "https://www.raspberrypi.org/wp-content/uploads/2011/10/Raspi-PGB001.png",
       "optionc": "https://encrypted-tbn0.gstatic.com/images?question=tbn%3AANd9GcQ3csPqDA5xw7_oJEQn4zZkTvAOSisB1l_D_Y_lNqvjqjq-EYfx&usqp=CAU",
-      "optiond": "https://i.redd.it/rm6sqwpmesb41.jpg",
-      "answer": "https://img.stackshare.io/service/1446/8cyY6D_m.png",
-      "explanation": "The first choice is correct, that particular IDE is called Eclipse"
+      "optiond": "https://c7.uihere.com/files/754/992/18/raspberry-pi-computer-icons-raspbian-installation-raspberries.jpg",
+      "answer": "https://1000logos.net/wp-content/uploads/2017/06/Ubuntu-Logo.png",
+      "explanation": "The first choice is correct"
     },
     {
       "question_type": "TF",
       "id": "7",
-      "question": "Python is a language commonly used in AI",
+      "question": "Fortran is a procedural language",
       "answer": "True",
-      "explanation": "Python is popular in AI, Machine Learning and data mining"
+      "explanation": "Fortran is a procedural language and still runs on mainframes for major banks"
     },
     {
       "question_type": "Input",
       "id": "8",
-      "question": "Which framework starts with a .?",
-      "answer": ".NET",
-      "explanation": ".NET"
+      "question": "How do you declare a variable in Javascript?",
+      "answer": "var",
+      "explanation": "var is the correct syntax to explicity create a variable"
     },
     {
       "question_type": "MultipleChoice",
       "id": "9",
-      "question": "Who created Linux?",
+      "question": "Who created Unix?",
       "optiona": "Linus Torvalds",
       "optionb": "Elon Musk",
       "optionc": "Steve Jobs",
-      "optiond": "Thomas Linux",
-      "answer": "Linus Torvalds",
-      "explanation": "Linus Torvalds created Linux 1991 after writting his own kernel and asking for peoples advice and contributions"
+      "optiond": "Bell Labs",
+      "answer": "Bell Labs",
+      "explanation": "Development started in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others."
     },
     {
       "question_type": "MultipleChoice",
       "id": "10",
-      "question": "Which is not a UNIX based system?",
-      "optiona": "MacOS",
-      "optionb": "Ubuntu",
-      "optionc": "Kbuntu",
-      "optiond": "Windows",
-      "answer": "Windows",
-      "explanation": "All of the other choices were based on the UNIX/Linux kernel, besides Windows"
+      "question": "How do you define a number like this -> 10.00 <-in C?",
+      "optiona": "int i = 10.00",
+      "optionb": "var i = 10.00",
+      "optionc": "double i = 10.00",
+      "optiond": "dnum i = 10.00",
+      "answer": "double i = 10.00",
+      "explanation": "double i = 10.00 is the correct way to define a 'double'"
     },
     {
       "question_type": "TF",
       "id": "11",
-      "question": "SSH is a Secure Shell",
-      "answer": "True",
-      "explanation": "SSH stands for secure shell, allowing for network services securely over an unsecured network"
+      "question": "The command line in Linux is ineffective compared to most OS systems",
+      "answer": "False",
+      "explanation": "Many modern operating systems are based on the original architecture of Linux, most notably MacOS"
     },
     {
       "question_type": "TF",
       "id": "12",
-      "question": "JavaScript requires an else statement when declaring an if statement",
-      "answer": "False",
-      "explanation": "Unlike some languages, JavaScript does not require an else statement"
+      "question": "grep is a command in bash shell scripting",
+      "answer": "True",
+      "explanation": "grep is effective at extracting data"
     },
     {
       "question_type": "TF",
       "id": "13",
-      "question": "JavaScript in the browser does not need a semicolon ; to compile correctly",
+      "question": "awk is a procedural scripting language",
       "answer": "True",
-      "explanation": "Modern browsers can easily get away with missing semicolons"
+      "explanation": "awk is useful for data extraction and reporting"
     },
     {
       "question_type": "Input",
       "id": "14",
-      "question": "The React framework was made by ________",
-      "answer": "Facebook",
-      "explanation": "Facebook created React in 2011 to deal with managing templates with lots of various user content"
+      "question": "C has _____ to the memory location of variables",
+      "answer": "Pointers",
+      "explanation": "Pointers is the correct answer"
     },
     {
       "question_type": "Input",
       "id": "15",
-      "question": "Django was built based on which language?",
-      "answer": "Python",
-      "explanation": "Django is Python based, initially released in 2005 by the non-profit Django Software Foundation"
+      "question": "In C, structs are ____ types",
+      "answer": "Value",
+      "explanation": "Value types is the correct answer"
     },
     {
-      "question_type": "Picture",
+      "question_type": "TF",
       "id": "16",
-      "question": "Which is the Flask logo?",
-      "optiona": "https://img.stackshare.io/service/1446/8cyY6D_m.png",
-      "optionb": "https://twilio-cms-prod.s3.amazonaws.com/original_images/flask-oauth.png",
-      "optionc": "https://encrypted-tbn0.gstatic.com/images?question=tbn%3AANd9GcQ3csPqDA5xw7_oJEQn4zZkTvAOSisB1l_D_Y_lNqvjqjq-EYfx&usqp=CAU",
-      "optiond": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
-      "answer": "https://twilio-cms-prod.s3.amazonaws.com/original_images/flask-oauth.png",
-      "explanation": "The second choice is the correct answer!"
+      "question": "Stacks are a data structure",
+      "answer": "True",
+      "explanation": "Stacks are important! Read up on them :)"
     },
     {
-      "question_type": "Input",
+      "question_type": "TF",
       "id": "17",
-      "question": "React works with which language?",
-      "answer": "Javascript",
-      "explanation": "Javascript is the correct answer!"
+      "question": "There are 3 dimensional arrays",
+      "answer": "True",
+      "explanation": "Most people don't know about them, but they are very cool and work like cooridinates in a 3D cube"
     },
     {
       "question_type": "Input",
       "id": "18",
-      "question": "What is the file extension in CSS?",
-      "answer": ".css",
-      "explanation": ".css is the correct answer!"
+      "question": "What is the file extension in C?",
+      "answer": ".c",
+      "explanation": ".c is the correct answer. Pretty simple huh!"
     },
     {
       "question_type": "Input",
       "id": "19",
-      "question": "What is the OR operator in JavaScript?",
+      "question": "What is the OR operator in C?",
       "answer": "||",
       "explanation": "|| is the correct answer"
     },
     {
       "question_type": "TF",
       "id": "20",
-      "question": "JavaScript is multi-threaded",
-      "answer": "False",
-      "explanation": "Javascript is a single-threaded language"
+      "question": "Java is multi-threaded",
+      "answer": "True",
+      "explanation": "Java is a single-threaded language"
     }
   ]
 }
